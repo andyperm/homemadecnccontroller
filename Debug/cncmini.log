@@ -1,0 +1,729 @@
+﻿Сборка начата 26.11.2014 13:40:05.
+     1>Проект "C:\Users\пихтовая2\Documents\Visual Studio 2010\Projects\cncmini\cncmini\cncmini.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\cncmini.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Обращение к "Debug\cncmini.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\cncmini.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt coolant_control.c eeprom.c gcode.c limits.c main.c motion_control.c nuts_bolts.c planner.c print.c probe.c protocol.c report.c serial.c settings.c spindle_control.c stepper.c system.c
+         system.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\system.c(33): error C2065: PCMSK1: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\system.c(34): error C2065: PCICR: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\system.c(34): error C2065: PCIE1: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\system.c(45): error C2065: PINC: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\system.c(46): error C2065: PINC: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\system.c(48): error C2065: PINC: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\system.c(50): error C2065: PINC: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\system.c(188): warning C4013: trunc: нет определения; предполагается "extern" с возвратом типа "int"
+         stepper.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(216): error C2065: TIMSK1: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(216): error C2065: OCIE1A: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(225): error C2065: TIMSK1: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(225): error C2065: OCIE1A: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(226): error C2065: TCCR1B: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(226): error C2065: TCCR1B: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(226): error C2065: CS12: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(226): error C2065: CS11: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(226): error C2065: CS10: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(230): error C2065: bool: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(230): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "pin_state"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(230): error C2065: pin_state: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(235): error C2065: pin_state: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(237): error C2065: pin_state: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(237): error C2065: pin_state: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(238): error C2065: pin_state: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(292): error C2055: требуется список формальных параметров, а не список типов
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(294): warning C4033: "ISR" должен возвращать значение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(308): error C2065: TCNT0: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(309): error C2065: TCCR0B: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(309): error C2065: CS01: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(328): error C2065: OCR1A: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(355): warning C4033: "ISR" должен возвращать значение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(429): error C2084: функция "int ISR(int *)" уже имеет текст реализации
+                 c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\system.h(46): см. предыдущее определение "ISR"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(432): error C2065: TCCR0B: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(493): error C2065: TCCR1B: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(493): error C2065: WGM13: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(494): error C2065: TCCR1B: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(494): error C2065: WGM12: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(495): error C2065: TCCR1A: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(495): error C2065: WGM11: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(495): error C2065: WGM10: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(496): error C2065: TCCR1A: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(496): error C2065: COM1A1: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(496): error C2065: COM1A0: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(496): error C2065: COM1B1: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(496): error C2065: COM1B0: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(501): error C2065: TIMSK0: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(501): error C2065: OCIE0B: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(501): error C2065: OCIE0A: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(501): error C2065: TOIE0: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(502): error C2065: TCCR0A: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(503): error C2065: TCCR0B: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(504): error C2065: TIMSK0: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(504): error C2065: TOIE0: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(573): warning C4244: =: преобразование "uint32_t" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(575): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(584): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(594): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(600): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(601): error C2065: decel_dist: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(603): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(605): error C2065: decel_dist: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(605): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(613): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(614): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(616): error C2065: intersect_distance: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(617): error C2065: intersect_distance: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(619): error C2065: inv_2_accel: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(619): error C2065: exit_speed_sqr: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(620): error C2065: intersect_distance: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(621): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(627): error C2065: inv_2_accel: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(630): error C2065: intersect_distance: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(630): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(631): error C2065: intersect_distance: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(631): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(632): error C2065: intersect_distance: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(632): error C2065: exit_speed_sqr: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(632): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(648): error C2275: segment_t: недопустимое использование этого типа в качестве выражения
+                 c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(84): см. объявление "segment_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(648): error C2065: prep_segment: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(651): error C2065: prep_segment: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(651): error C2223: выражение слева от "->st_block_index" должно указывать на структуру или объединение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(667): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(668): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(669): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(670): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(671): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(672): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(673): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(674): error C2065: minimum_mm: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(674): error C2065: minimum_mm: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(674): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(680): error C2065: speed_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(680): error C2065: time_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(680): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(681): error C2065: mm_remaining: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(681): error C2065: time_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(681): error C2065: speed_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(681): warning C4244: -=: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(682): error C2065: mm_remaining: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(684): error C2065: mm_remaining: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(684): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(685): error C2065: time_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(685): error C2065: mm_remaining: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(685): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(686): error C2065: mm_remaining: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(690): error C2065: speed_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(697): error C2065: mm_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(697): error C2065: mm_remaining: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(697): error C2065: time_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(697): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(698): error C2065: mm_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(700): error C2065: time_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(700): error C2065: mm_remaining: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(700): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(701): error C2065: mm_remaining: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(701): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(704): error C2065: mm_remaining: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(704): error C2065: mm_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(709): error C2065: speed_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(709): error C2065: time_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(709): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(710): error C2065: speed_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(712): error C2065: mm_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(712): error C2065: mm_remaining: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(712): error C2065: time_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(712): error C2065: speed_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(712): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(713): error C2065: mm_var: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(714): error C2065: mm_remaining: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\stepper.c(714): fatal error C1003: число ошибок превышает 100; остановка компиляции
+         spindle_control.c
+         settings.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(76): warning C4305: =: усечение из "double" к "float"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(77): warning C4305: =: усечение из "double" к "float"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(167): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(198): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(198): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "set_idx"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(198): error C2065: set_idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(199): error C2065: set_idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(202): error C2065: set_idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(210): error C2065: set_idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(212): error C2065: set_idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(218): warning C4013: trunc: нет определения; предполагается "extern" с возвратом типа "int"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(303): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(304): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(304): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "i"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(304): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(305): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(305): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(305): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(306): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(306): error C2065: coord_data: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(306): warning C4047: функция: "float *" отличается по уровням косвенного обращения от "int"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\settings.c(306): warning C4024: settings_read_coord_data: различные типы для формального и фактического параметров 2
+         serial.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\serial.c(115): error C2055: требуется список формальных параметров, а не список типов
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\serial.c(169): error C2084: функция "int ISR(int *)" уже имеет текст реализации
+                 c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\system.h(46): см. предыдущее определение "ISR"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\serial.c(169): error C2055: требуется список формальных параметров, а не список типов
+         report.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(187): warning C4244: функция: преобразование "uint16_t" в "uint8_t", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(192): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(192): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "idx"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(192): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(192): error C2065: set_idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(193): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(193): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "val"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(193): error C2065: val: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(194): error C2065: set_idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(194): error C2065: set_idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(194): error C2065: set_idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(195): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(195): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(195): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(197): error C2065: val: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(197): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(199): error C2065: set_idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(200): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(201): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(202): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(203): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(206): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(211): error C2065: set_idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(219): error C2065: val: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(369): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(384): error C2065: print_position: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(384): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(396): error C2065: print_position: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(396): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(396): error C2198: printFloat_CoordValue: слишком мало аргументов для вызова
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(406): error C2065: print_position: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(406): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(407): error C2065: print_position: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(407): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(408): error C2065: print_position: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(408): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\report.c(408): error C2198: printFloat_CoordValue: слишком мало аргументов для вызова
+         protocol.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(93): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(93): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "iscomment"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(93): error C2065: iscomment: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(94): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(94): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "char_counter"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(94): error C2065: char_counter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(95): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(95): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "c"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(95): error C2065: c: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(108): error C2065: c: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(109): error C2065: c: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(109): error C2065: c: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(110): error C2065: char_counter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(112): error C2065: iscomment: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(113): error C2065: char_counter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(115): error C2065: iscomment: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(117): error C2065: c: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(119): error C2065: iscomment: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(122): error C2065: c: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(124): error C2065: c: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(127): error C2065: c: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(132): error C2065: iscomment: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(144): error C2065: char_counter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(147): error C2065: iscomment: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(148): error C2065: char_counter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(149): error C2065: c: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(149): error C2065: c: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(150): error C2065: char_counter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(150): error C2065: c: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(152): error C2065: char_counter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\protocol.c(152): error C2065: c: необъявленный идентификатор
+         probe.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\probe.c(44): error C2065: PINC: необъявленный идентификатор
+         print.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(43): warning C4013: pgm_read_byte_near: нет определения; предполагается "extern" с возвратом типа "int"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(92): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(93): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(93): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "i"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(93): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(96): error C2065: buf: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(96): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(96): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(100): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(100): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(101): error C2065: buf: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(101): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(101): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(101): error C2198: serial_write: слишком мало аргументов для вызова
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(112): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(113): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(113): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "i"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(113): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(116): error C2065: buf: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(116): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(116): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(120): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(120): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(121): error C2065: buf: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(121): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(121): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(121): error C2198: serial_write: слишком мало аргументов для вызова
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(148): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(148): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "decimals"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(148): error C2065: decimals: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(149): error C2065: decimals: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(151): error C2065: decimals: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(153): error C2065: decimals: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(157): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(158): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(158): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "i"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(158): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(159): error C2275: uint32_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23): см. объявление "uint32_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(159): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(159): error C2065: a: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(160): error C2065: buf: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(160): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(161): error C2065: a: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(162): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(162): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(163): error C2065: buf: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(163): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(163): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(163): error C2065: a: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(164): error C2065: a: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(166): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(167): error C2065: buf: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(167): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(167): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(169): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(170): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(171): error C2065: buf: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(171): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(171): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(175): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(175): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(176): error C2065: buf: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(176): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(176): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(176): error C2198: serial_write: слишком мало аргументов для вызова
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(187): warning C4244: функция: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\print.c(195): warning C4244: функция: преобразование "double" в "float", возможна потеря данных
+         planner.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(149): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(150): error C2275: plan_block_t: недопустимое использование этого типа в качестве выражения
+                 c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.h(62): см. объявление "plan_block_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(150): error C2065: next: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(151): error C2275: plan_block_t: недопустимое использование этого типа в качестве выражения
+                 c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.h(62): см. объявление "plan_block_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(151): error C2065: current: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2065: current: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2223: выражение слева от "->entry_speed_sqr" должно указывать на структуру или объединение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2065: current: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2223: выражение слева от "->max_entry_speed_sqr" должно указывать на структуру или объединение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2065: current: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2223: выражение слева от "->acceleration" должно указывать на структуру или объединение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2065: current: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2223: выражение слева от "->millimeters" должно указывать на структуру или объединение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2065: current: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2223: выражение слева от "->max_entry_speed_sqr" должно указывать на структуру или объединение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2065: current: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2223: выражение слева от "->acceleration" должно указывать на структуру или объединение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2065: current: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): error C2223: выражение слева от "->millimeters" должно указывать на структуру или объединение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\planner.c(154): fatal error C1903: не удается восстановить после предыдущих ошибок; остановка компиляции
+         nuts_bolts.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(50): error C2065: bool: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(50): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "isnegative"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(50): error C2065: isnegative: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(52): error C2065: isnegative: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(59): error C2275: uint32_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(23): см. объявление "uint32_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(59): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "intval"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(59): error C2065: intval: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(60): error C2275: int8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(17): см. объявление "int8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(60): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "exp"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(60): error C2106: =: левый операнд должен быть левосторонним значением
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(60): warning C4550: вычисление выражения дает функцию, в которой отсутствует список аргументов
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(61): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(61): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ndigit"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(61): error C2065: ndigit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(62): error C2065: bool: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(62): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "isdecimal"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(62): error C2065: isdecimal: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(66): error C2065: ndigit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(67): error C2065: ndigit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(68): error C2065: isdecimal: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(68): error C2171: --: недопустимо для операндов типа "double (__cdecl *)(double)"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(68): error C2105: для "--" требуется левостороннее значение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(68): warning C4550: вычисление выражения дает функцию, в которой отсутствует список аргументов
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(69): error C2065: intval: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(69): error C2065: intval: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(69): error C2065: intval: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(71): error C2065: isdecimal: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(71): error C2171: ++: недопустимо для операндов типа "double (__cdecl *)(double)"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(71): error C2105: для "++" требуется левостороннее значение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(71): warning C4550: вычисление выражения дает функцию, в которой отсутствует список аргументов
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(73): error C2065: isdecimal: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(74): error C2065: isdecimal: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(82): error C2065: ndigit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(85): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(86): error C2065: fval: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(86): error C2065: intval: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(86): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(90): error C2065: fval: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(91): warning C4047: <=: "double (__cdecl *)(double)" отличается по уровням косвенного обращения от "int"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(92): error C2065: fval: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(92): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(93): error C2296: +=: недопустимо, левый операнд имеет тип "double (__cdecl *)(double)"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(96): error C2065: fval: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(96): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(99): error C2065: fval: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(99): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(100): error C2171: --: недопустимо для операндов типа "double (__cdecl *)(double)"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(100): error C2105: для "--" требуется левостороннее значение
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(105): error C2065: isnegative: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(106): error C2065: fval: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(106): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(108): error C2065: fval: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(108): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\nuts_bolts.c(149): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+         motion_control.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(120): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(122): error C2065: M_PI: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(124): error C2065: M_PI: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(131): error C2275: uint16_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(22): см. объявление "uint16_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(131): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "segments"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(131): error C2065: segments: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(132): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(134): error C2065: segments: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(138): error C2065: segments: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(140): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(141): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(169): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(170): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(171): error C2065: cos_T: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(171): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(173): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(174): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(175): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(176): error C2275: uint16_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(22): см. объявление "uint16_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(176): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "i"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(176): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(177): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(177): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "count"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(177): error C2065: count: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(179): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(179): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(179): error C2065: segments: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(179): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(181): error C2065: count: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(183): error C2065: r_axisi: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(183): error C2065: sin_T: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(183): error C2065: cos_T: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(183): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(184): error C2065: cos_T: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(184): error C2065: sin_T: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(185): error C2065: r_axisi: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(185): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(186): error C2065: count: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(190): error C2065: cos_Ti: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(190): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(190): error C2065: theta_per_segment: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(190): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(191): error C2065: sin_Ti: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(191): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(191): error C2065: theta_per_segment: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(191): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(192): error C2065: cos_Ti: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(192): error C2065: sin_Ti: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(193): error C2065: sin_Ti: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(193): error C2065: cos_Ti: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(194): error C2065: count: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(200): error C2065: linear_per_segment: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(226): error C2275: uint16_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(22): см. объявление "uint16_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(226): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "i"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(226): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(226): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(228): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(228): warning C4244: функция: преобразование "double" в "uint16_t", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(229): error C2065: i: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(289): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(289): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "auto_start_state"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(289): error C2065: auto_start_state: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(327): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(327): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "idx"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(327): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(328): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(328): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(328): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(330): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(330): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(330): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\motion_control.c(343): error C2065: auto_start_state: необъявленный идентификатор
+         main.c
+         limits.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(51): error C2065: PCMSK0: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(52): error C2065: PCICR: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(52): error C2065: PCIE0: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(67): error C2065: PCMSK0: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(68): error C2065: PCICR: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(68): error C2065: PCIE0: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(85): error C2055: требуется список формальных параметров, а не список типов
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(130): error C2065: bool: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(130): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "approach"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(130): error C2065: approach: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(131): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(132): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(132): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "invert_pin"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(132): error C2065: invert_pin: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(132): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(133): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(133): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "n_cycle"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(133): error C2065: n_cycle: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(134): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(136): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(136): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "limit_pin"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(136): error C2065: limit_pin: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(136): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(136): error C2065: step_pin: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(136): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(137): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(138): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(138): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(138): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(140): error C2065: limit_pin: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(140): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(140): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(140): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(141): error C2065: step_pin: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(141): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(141): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(141): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(145): error C2065: max_travel: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(145): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(145): error C2065: max_travel: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(145): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(145): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(147): error C2065: max_travel: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(147): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(153): error C2065: invert_pin: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(153): error C2065: approach: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(154): error C2065: invert_pin: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(154): error C2065: approach: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(157): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(157): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "n_active_axis"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(157): error C2065: n_active_axis: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(158): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(158): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "axislock"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(158): error C2065: axislock: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(160): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(160): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(160): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(162): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(163): error C2065: n_active_axis: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(164): error C2065: approach: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(164): error C2065: target: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(164): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(164): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(164): error C2065: max_travel: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(165): error C2065: target: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(165): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(165): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(165): error C2065: max_travel: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(167): error C2065: target: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(167): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(167): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(171): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(171): error C2065: target: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(171): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(171): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(171): error C2065: target: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(171): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(171): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(174): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(174): error C2065: axislock: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(174): error C2065: step_pin: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(174): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(174): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(176): error C2065: homing_rate: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(176): error C2065: n_active_axis: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(176): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(177): error C2065: axislock: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(180): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(180): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "limit_state"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(180): error C2065: limit_state: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(185): error C2065: target: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(185): warning C4047: функция: "float *" отличается по уровням косвенного обращения от "int"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(185): warning C4024: plan_buffer_line: различные типы для формального и фактического параметров 1
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(185): error C2065: homing_rate: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(185): warning C4244: функция: преобразование "int" в "float", возможна потеря данных
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(192): error C2065: limit_state: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(192): error C2065: PINB: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(193): error C2065: invert_pin: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(193): error C2065: limit_state: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(194): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(194): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(194): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(195): error C2065: axislock: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(195): error C2065: step_pin: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(195): error C2065: idx: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(195): error C2109: для индекса требуется массив или указатель
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(196): error C2065: limit_state: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\limits.c(196): fatal error C1003: число ошибок превышает 100; остановка компиляции
+         gcode.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(101): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(101): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "axis_command"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(101): error C2065: axis_command: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(102): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(102): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "axis_0"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(102): error C2065: axis_0: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(102): error C2065: axis_1: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(102): error C2065: axis_linear: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(103): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(103): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "coord_select"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(103): error C2065: coord_select: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(104): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(105): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(108): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(108): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "axis_words"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(108): error C2065: axis_words: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(109): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(109): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "ijk_words"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(109): error C2065: ijk_words: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(112): error C2275: uint16_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(22): см. объявление "uint16_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(112): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "command_words"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(112): error C2065: command_words: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(113): error C2275: uint16_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(22): см. объявление "uint16_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(113): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "value_words"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(113): error C2065: value_words: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(121): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(121): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "word_bit"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(121): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(122): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(122): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "char_counter"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(122): error C2065: char_counter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(123): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(124): error C2143: синтаксическая ошибка: отсутствие ";" перед "тип"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(125): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(125): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "int_value"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(125): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(126): error C2275: uint8_t: недопустимое использование этого типа в качестве выражения
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(21): см. объявление "uint8_t"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(126): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "mantissa"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(126): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(129): error C2065: char_counter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(132): error C2065: letter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(132): error C2065: char_counter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(133): error C2065: letter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(133): error C2065: letter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(134): error C2065: char_counter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(135): error C2065: char_counter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(135): warning C4133: функция: несовместимые типы - из "int *" в "uint8_t *"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(135): error C2065: value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(135): warning C4133: функция: несовместимые типы - из "int *" в "float *"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(144): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(144): warning C4013: trunc: нет определения; предполагается "extern" с возвратом типа "int"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(144): error C2065: value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(145): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(145): warning C4013: round: нет определения; предполагается "extern" с возвратом типа "int"
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(145): error C2065: value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(145): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(150): error C2065: letter: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(157): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(161): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(162): error C2065: axis_command: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(163): error C2065: axis_command: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(167): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(168): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(172): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(177): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(180): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(185): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(189): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(194): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(201): error C2065: axis_command: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(202): error C2065: axis_command: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(205): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(206): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(212): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(220): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(226): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(227): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(234): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(235): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(239): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(240): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(244): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(245): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(249): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(253): error C2065: axis_command: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(254): error C2065: axis_command: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(255): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(257): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(260): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(264): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(265): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(269): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(272): error C2065: command_words: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(272): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(273): error C2065: command_words: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(273): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(279): error C2065: mantissa: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(280): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(282): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(283): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(290): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(291): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(301): error C2065: word_bit: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(302): error C2065: int_value: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(315): error C2065: command_words: необъявленный идентификатор
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\gcode.c(315): fatal error C1003: число ошибок превышает 100; остановка компиляции
+         eeprom.c
+     1>c:\users\пихтовая2\documents\visual studio 2010\projects\cncmini\cncmini\eeprom.c(24): fatal error C1083: Не удается открыть файл включение: avr/io.h: No such file or directory
+         coolant_control.c
+         Создание кода...
+     1>Построение проекта "C:\Users\пихтовая2\Documents\Visual Studio 2010\Projects\cncmini\cncmini\cncmini.vcxproj" завершено (целевые объекты rebuild) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:02.81
